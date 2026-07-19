@@ -1,0 +1,113 @@
+
+<html>
+
+<head>
+    <title>Zoo resucue tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightyellow;
+            padding: 65px 30px 30px 30px;
+            min-height: 1800px;
+        }
+
+        h1,
+        h2 {
+            color: darkorange;
+        }
+
+        .alert {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: darkorange;
+            color: white;
+            padding: 14px 20px;
+        }
+
+        .animal {
+            background-color: white;
+            border: 2px solid darkorange;
+            padding: 10px 20px;
+            margin: 5px 0;
+        }
+
+        .moved {
+            position: relative;
+            left: 30px;
+            background-color: gold;
+            padding: 10px 20px;
+        }
+
+        .card {
+            position: relative;
+            background-color: white;
+            border: 3px solid darkorange;
+            padding: 15px 25px;
+        }
+
+        .tag {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: forestgreen;
+            color: white;
+            padding: 4px 8px;
+        }
+
+        .zone{
+            position: sticky;
+            top: 55px;
+            background-color: darkorange;
+            color: white;
+            padding: 10px 20px;
+            margin: 15px 0 8px;
+        }
+        .case{
+            background-color:blueviolet;
+            padding:30px 15px;
+            margin:15px 0 8px;
+            position:absolute;
+            top: 8px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Alert">Zoo rescue alert-Emergence team active | </div>
+    <h1>Zoo rescue team</h1>
+
+    <h2>Static positioning</h2>
+    <div class="list-item">Lion-Resting zone</div>
+    <div class="list-item">Elephant-water zone</div>
+    <div class="list-item">Penguin- Ice zone</div>
+
+    <h2>Relative positioning</h2>
+    <p>The rescued animal enrty movs slightly using </p>
+    <div class="animal"> Girafee - checkup pending
+    </div>
+    
+
+    <h2>Absolute</h2>
+    <p>The resucue tag is placed on the animals neck usisng abouslut positioning</p>
+    <div class="card">
+        Bear , lion, panda, cheetah , gorrila
+        <br>
+    </div>
+
+    <h2>Sticky</h2>
+    <p>The resucue zone label locks on the top,check!</p>
+    <div class="section-label"><i>Rescue zone cases, sticky</i></div>
+    <div class="list-item">Tiger - Observation</div>
+    <div class="list-item">Lion - Released</div>
+    <div class="list-item">Owl - Night care</div>
+    <div class="list-item">Turtle- Water care</div>
+    <div class="list-item">Rabbit-healthy</div>
+    <div class="list-item">Flamingo- wing check</div>
+    <div class="list-item">Monkey-play area</div>
+    <div class="list-item">Horse-Recovery stable</div>
+</body>
+
+</html>
